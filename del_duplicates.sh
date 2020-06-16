@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#Delete duplicate files in a directory given as a cli argument
 DIR=$1
 FILENAMES=`find $DIR -type f`
 
